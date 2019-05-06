@@ -27,7 +27,6 @@ public interface ApiService {
     @PUT("update")
     Call<ResponseBody> update(@Body User user);
 
-    @DELETE("remove")
+    @PUT("remove")
     Call<ResponseBody> remove(@Body User user);
-
 }

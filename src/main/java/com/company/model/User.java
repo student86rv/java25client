@@ -1,24 +1,14 @@
 package com.company.model;
 
-//import javax.persistence.*;
 import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-//@Entity
-//@Table(name = "users")
 public class User {
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
-//    @Column(name = "_id")
     private int id;
-
-    //@Column(name = "name", nullable = false, unique = false)
     private String name;
-
-    //@Column(name = "birth_date", nullable = false, unique = false)
     private Timestamp birthDate;
 
     private static SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");

@@ -18,7 +18,8 @@ public class Main {
         //getUserByName("Victor");
         //getUsersByAge(18, 30);
         //addUser(new User("Victor", "2000-01-01"));
-        updateUser(new User(87, "Andrey", "1989-04-20"));
+        //updateUser(new User(87, "Andrey", "1989-04-20"));
+        removeUser(new User(87, "Andrey", "1989-04-20"));
     }
 
     private static void getAllUsers() {
@@ -109,5 +110,4 @@ public class Main {
             e.printStackTrace();
         }
     }
-
 }
