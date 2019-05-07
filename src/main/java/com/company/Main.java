@@ -13,13 +13,24 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        //getAllUsers();
-        //getUser(85);
-        //getUserByName("Victor");
-        //getUsersByAge(18, 30);
-        //addUser(new User("Victor", "2000-01-01"));
-        //updateUser(new User(87, "Andrey", "1989-04-20"));
-        removeUser(new User(87, "Andrey", "1989-04-20"));
+
+        addUser(new User("Alex", "1987-01-20"));
+        addUser(new User("Oleg", "1991-05-04"));
+        addUser(new User("Anna", "1990-08-15"));
+        addUser(new User("Max", "1983-11-19"));
+        addUser(new User("Victor", "1980-02-14"));
+
+        getAllUsers();
+
+        getUser(3);
+
+        getUserByName("Victor");
+
+        getUsersByAge(20, 35);
+
+        updateUser(new User(4, "Andrey", "1989-04-20"));
+
+        removeUser(new User(5, "Victor", "1980-02-14"));
     }
 
     private static void getAllUsers() {
